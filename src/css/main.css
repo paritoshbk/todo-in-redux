@@ -1,0 +1,68 @@
+#heading{
+  text-align: center;
+}
+
+#incomplete{
+  color: white;
+  text-align: center;
+}
+
+#complete{
+  color: white;
+  text-align: center;
+}
+
+body{
+  background-color: aqua;
+}
+
+.addTodos{
+  
+  width: 60%;
+  display: flex;
+  margin: auto;
+  }
+
+#item{
+  width: 100%;
+padding: 18px;
+background: #aa5252bb;
+font-size: 22px;
+
+}
+#container{
+  max-width: 800px;
+  padding: 15px;
+  margin: 50px auto;
+  background-color: burlywood;
+  }
+
+input[type="text"]{
+  width: 90%;
+  color: #333;
+  border:none;
+  border-bottom: 2px solid ;
+  background: none;
+  padding: 10px;
+  font-size: 22px;
+  margin: auto;
+  }
+
+  #btn{
+    
+float: right;
+padding: 5px;
+font-size: 28px;
+background: none;
+border: none;
+outline: none;
+cursor: pointer;
+  }
+
+#addBtn{
+  background: #222;
+color: #fff;
+font-size: 18px;
+padding: 10px;
+
+}
